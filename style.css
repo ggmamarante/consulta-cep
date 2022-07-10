@@ -1,0 +1,117 @@
+/* #####################################
+########################################
+
+	Theme name: Consulta de CEP
+	Theme URI: https://portfoliodev.com.br/cep
+
+	Description: Este tema foi desenvolvido para consultas rápidas de CEP.
+	
+	Code: Gabriel Amarante
+	Author URI: https://gabrielfreelancer.com.br
+	Version: MK.07.2022
+
+########################################
+##################################### */
+
+/* ######
+   Básicos
+############ */
+
+* { outline: none; }
+
+html { scroll-behavior: smooth; }
+
+html , body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	color: #888;
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+a , a:hover , a:focus {
+	color: #888;
+	text-decoration: none;
+	transition: .4s;
+}
+a:hover {
+	color: #888;
+}
+
+button , button:hover , button:focus {
+	outline: none;
+	cursor: pointer;
+}
+
+img {
+	display: inline-block;
+	max-width: 100%;
+	height: auto;
+}
+
+/* ######
+   Conteúdo
+############ */
+
+#conteudo {
+	width: 100vw;
+	height: 100vh;
+	background: #364253;
+}
+
+/* box-form */
+
+#conteudo .box-form {
+	text-align: center;
+	width: 400px;
+	margin: 0 auto;
+	padding: 30px 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	box-shadow: 2px 8px 11px rgba(0, 0, 0, 0.2);
+	border-radius: 10px;
+	background: #FFF;
+}
+#conteudo .box-form input {
+	color: #444;
+	font-size: 24px;
+	letter-spacing: .3em;
+	text-align: center;
+	width: 100%;
+	padding: 20px;
+	border: none;
+	border-radius: 30px;
+	box-sizing: border-box;
+	background: #F6F6F6;
+}
+#conteudo .box-form input::placeholder {
+	color: #999;
+	font-size: 18px;
+	letter-spacing: initial;
+}
+#conteudo .box-form button {
+	color: #FFF;
+	font-size: 16px;
+	display: inline-block;
+	margin: 20px 0 0;
+	padding: 15px 50px;
+	border: none;
+	border-radius: 30px;
+	background: linear-gradient(to right, #4091DD, #28B4D2);
+}
+
+/* box-info */
+
+#conteudo .box-info p {
+	color: #4091DD;
+	font-size: 18px;
+	margin: 8px 0 0;
+}
+#conteudo .box-info p:first-child {
+	margin: 30px 0 0;
+}
